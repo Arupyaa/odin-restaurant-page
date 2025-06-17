@@ -39,10 +39,15 @@ nav{
     /* background-color: burlywood; */
     flex: auto;
     height: 100vh;
+    padding: 10rem 20rem;
 }
 
 .Home{
-    background-color: green;
+    background-image: url(./paws.png);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    background-color: aqua;
 }
 
 .Menu{
@@ -51,4 +56,14 @@ nav{
 
 .About{
     background-color: yellow;
+}
+
+.main-window{
+    background-color: #EFDECD;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 2rem;
 }

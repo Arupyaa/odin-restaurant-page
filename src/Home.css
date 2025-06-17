@@ -1,0 +1,15 @@
+.logo-img{
+    width: 8rem;
+    vertical-align: middle;
+}
+.logo-text{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 5rem;
+    margin: 0 4rem;
+    color: white;
+    text-shadow: 4px 3px 0px #7A7A7A;
+}
+.flipped{
+    transform: scaleX(-1);
+}
