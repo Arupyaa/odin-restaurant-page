@@ -40,6 +40,8 @@ nav{
     flex: auto;
     height: 100vh;
     padding: 10rem 20rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .Home{
@@ -59,11 +61,15 @@ nav{
 }
 
 .main-window{
+    flex: none;
+    width: max-content;
+    align-self: center;
     background-color: #EFDECD;
     padding: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: center;
     border-radius: 2rem;
+    gap: 5rem;
+
 }

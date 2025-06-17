@@ -1,8 +1,18 @@
-.logo-img{
+.logo-container {
+    min-width: max-content;
+    background-color: #F5DF4D;
+    border: 1rem solid #806E2C;
+    padding: 1rem;
+    border-radius: 2rem;
+
+}
+
+.logo-img {
     width: 8rem;
     vertical-align: middle;
 }
-.logo-text{
+
+.logo-text {
     display: inline-block;
     vertical-align: middle;
     font-size: 5rem;
@@ -10,6 +20,45 @@
     color: white;
     text-shadow: 4px 3px 0px #7A7A7A;
 }
-.flipped{
+
+.flipped {
     transform: scaleX(-1);
+}
+
+.hours-container {
+    background-color: #F5DF4D;
+    border: 1rem solid #806E2C;
+    padding: 1rem;
+    border-radius: 2rem;
+
+    & h2 {
+        font-size: 2rem;
+    }
+
+    & ul {
+        list-style: none;
+
+        & li {
+            margin-left: 3rem;
+            font-size: 1.4rem;
+        }
+
+        ;
+    }
+}
+
+.note-container {
+    background-color: #F5DF4D;
+    border: 1rem solid #806E2C;
+    padding: 1rem;
+    border-radius: 2rem;
+
+    & h2 {
+        font-size: 2rem;
+    }
+
+    & p {
+        margin-left: 3rem;
+        font-size: 1.4rem;
+    }
 }
