@@ -1,6 +1,22 @@
 // index.js
 import "./style.css"
-import { greeting } from "./greeting.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* import { greeting } from "./greeting.js";
 
 console.log(greeting);
 
@@ -9,4 +25,4 @@ import odinImage from "./odin.png";
 const image = document.createElement("img");
 image.src = odinImage;
    
-document.body.appendChild(image);
+document.body.appendChild(image); */

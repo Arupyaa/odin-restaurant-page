@@ -1,5 +1,42 @@
-.test{
-    width: 200px;
-    height: 200px;
-    background-color: green;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    background-color: #EFDECD;
+    padding: 1rem 0rem;
+    border-bottom: 0.3rem outset #EFDECD;
+    & button{
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding: 0.5rem 3rem;
+        border-radius: 45%;
+        background-color: #954535;
+        border: none;
+        box-shadow: 2px 2px 5px #823C2E;
+        
+    }
+    & button:hover{
+        background-color: #703428;
+    }
+    & button:active{
+        background-color: #954535;
+    }
+}
+
+#container{
+    background-color: burlywood;
+    flex: auto;
+    height: 100vh;
 }
