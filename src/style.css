@@ -36,7 +36,19 @@ nav{
 }
 
 #container{
-    background-color: burlywood;
+    /* background-color: burlywood; */
     flex: auto;
     height: 100vh;
+}
+
+.Home{
+    background-color: green;
+}
+
+.Menu{
+    background-color: blue;
+}
+
+.About{
+    background-color: yellow;
 }
