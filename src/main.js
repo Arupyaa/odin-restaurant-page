@@ -1,6 +1,7 @@
 // index.js
 import "./style.css";
 import "./Home.css";
+import "./Menu.css";
 import {Home} from "./Home.js";
 import {Menu} from "./Menu.js"
 import {About} from "./About.js"

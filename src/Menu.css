@@ -1,0 +1,54 @@
+.menu-card {
+    background-color: #F5DF4D;
+    border: 1rem solid #806E2C;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: grid;
+    gap: 0 2rem;
+    grid-template-columns: 30rem 10rem;
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-template-areas: "title image"
+        "paragraph image"
+        "table image";
+
+    & h2{
+        font-size: 2rem;
+        grid-area: title;
+    }
+    & p{
+        font-size: 1.4rem;
+        grid-area: paragraph;
+    }
+
+    & img, .placeholder-img {
+        grid-area: image;
+        align-self: center;
+        justify-self: center;
+        width: 10rem;
+        height: 10rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+    }
+    .placeholder-img{
+        background-color: rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    & table {
+        border-collapse: collapse;
+        grid-area: table;
+        margin-top: 1rem;
+        & th {
+            border: 2px solid black;
+            padding: 0.5rem;
+        }
+
+        & td {
+            border: 2px solid black;
+            text-align: center;
+            padding: 0.5rem;
+        }
+    }
+}
