@@ -1,7 +1,6 @@
 import lazyCat from "./lazyCat.png"
 
 let Home = (function () {
-    //let isDisplayed = false;
     let container = document.querySelector("#container");
     let mainWindow = document.createElement("div");
     let logoContainer = document.createElement("div");

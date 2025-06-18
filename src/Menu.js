@@ -2,7 +2,6 @@ import { menuCard } from "./menuCard";
 import milkImg from "./milk.jpg"
 
 let Menu = (function () {
-    //let isDisplayed = false;
     let container = document.querySelector("#container");
     let mainWindow = document.createElement("div");
     let drinks_1 = new menuCard("Glass of water:", "Fresh glass of premium mineral water, totally not filled from the faucet!", 0.5, "");
