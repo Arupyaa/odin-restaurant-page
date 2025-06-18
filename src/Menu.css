@@ -11,16 +11,18 @@
         "paragraph image"
         "table image";
 
-    & h2{
+    & h2 {
         font-size: 2rem;
         grid-area: title;
     }
-    & p{
+
+    & p {
         font-size: 1.4rem;
         grid-area: paragraph;
     }
 
-    & img, .placeholder-img {
+    & img,
+    .placeholder-img {
         grid-area: image;
         align-self: center;
         justify-self: center;
@@ -29,7 +31,8 @@
         border: 1px solid black;
         border-radius: 1rem;
     }
-    .placeholder-img{
+
+    .placeholder-img {
         background-color: rgba(0, 0, 0, 0.1);
         display: flex;
         justify-content: center;
@@ -40,6 +43,7 @@
         border-collapse: collapse;
         grid-area: table;
         margin-top: 1rem;
+
         & th {
             border: 2px solid black;
             padding: 0.5rem;
@@ -51,4 +55,15 @@
             padding: 0.5rem;
         }
     }
+}
+
+.title-card {
+    background-color: #F5DF4D;
+    border: 1rem solid #806E2C;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 }
